@@ -1,0 +1,83 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    .profile-Pages{
+  background: linear-gradient(to right, #1a1a40, #1a2a6c);
+  height: 100vh;
+}
+nav{
+    border-bottom: 0.5px solid #111;
+  }
+    header {
+      padding: 2rem 1rem;
+      background: linear-gradient(to right, #1a1a40, #1a2a6c);
+      text-align: center;
+      position: relative;
+    }
+
+    .projects {
+      padding: 2rem 1rem;
+      background-color: #1c1c3c;
+      text-align: center;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .project-card {
+      background: white;
+      color: black;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    .faqs {
+      background-color: #2a2a6c;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .faq-box {
+      background: #ff00c8;
+      color: white;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      header img.profile-pic {
+        position: static;
+        display: block;
+        margin: 1rem auto 0;
+      }
+    }
+  

@@ -34,6 +34,9 @@ nav{
   margin: 40px;
   color: #fff;
 }
+.fab, .fas{
+  font-size:25px
+}
         @media (max-width: 768px) {
 nav{
     border-bottom: 0.5px solid #111;
@@ -59,4 +62,5 @@ nav{
   flex-direction: column;
   margin:10px 0px;
 }
+
 }
