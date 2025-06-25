@@ -62,5 +62,7 @@ nav{
   flex-direction: column;
   margin:10px 0px;
 }
-
+.fab, .fas{
+  font-size:35px
+}
 }
